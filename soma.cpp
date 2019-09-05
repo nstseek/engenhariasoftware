@@ -2,13 +2,14 @@
 
 using namespace std;
 
-int soma(int a) {
-    return 2 + a;
+int soma(int a, int b) {
+    return b + a;
 }
 
 int main() {
-    int valor;
-    cin >> valor;
-    cout << soma(valor) << endl;
+    int valor1, valor2;
+    cin >> valor1;
+	cin >> valor2;
+    cout << soma(valor1, valor2) << endl;
     return 0;
 }
