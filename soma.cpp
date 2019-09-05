@@ -10,5 +10,6 @@ int main() {
     int valor;
     cin >> valor;
     cout << soma(valor) << endl;
+	/* Mudança */
     return 0;
 }
